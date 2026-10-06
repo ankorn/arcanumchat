@@ -424,6 +424,19 @@ function ChatApp() {
           ))}
         </div>
 
+        {messages.length > 0 && (
+          <div className="chat-actions">
+            <button
+              type="button"
+              className="chat-clear"
+              onClick={clearChat}
+              disabled={streaming}
+            >
+              clear chat
+            </button>
+          </div>
+        )}
+
         <form className="chat-composer" onSubmit={handleSubmit}>
           <textarea
             ref={inputRef}
@@ -465,18 +478,6 @@ function ChatApp() {
         >
           huggingface
         </a>
-        {messages.length > 0 && (
-          <>
-            <span className="footer-sep">·</span>
-            <button
-              type="button"
-              className="chat-clear"
-              onClick={clearChat}
-            >
-              clear chat
-            </button>
-          </>
-        )}
       </footer>
     </>
   );

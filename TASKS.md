@@ -2,9 +2,4 @@
 - [x] save thread_id (from event type 'start') and pass with next question: ws.send(JSON.stringify({ question: "", "thread_id": "" }))
 - [x] handle errors
   - [x] ws connection error
-
----
-
-#### minor
-
-- [ ] ui for calculating tool
+- [x] fix "clear chat" button css
