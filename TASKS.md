@@ -1,4 +1,10 @@
-- [ ] format ##, ###, **: .md formatter?
-- [ ] save thread_id (from event type 'start') and pass with next question: ws.send(JSON.stringify({ question: "", "thread_id": "" }))
-- [ ] handle errors
-  - [ ] ws connection error
+- [x] format ##, ###, \*\*: .md formatter?
+- [x] save thread_id (from event type 'start') and pass with next question: ws.send(JSON.stringify({ question: "", "thread_id": "" }))
+- [x] handle errors
+  - [x] ws connection error
+
+---
+
+#### minor
+
+- [ ] ui for calculating tool
