@@ -1,0 +1,4 @@
+- [ ] format ##, ###, **: .md formatter?
+- [ ] save thread_id (from event type 'start') and pass with next question: ws.send(JSON.stringify({ question: "", "thread_id": "" }))
+- [ ] handle errors
+  - [ ] ws connection error
