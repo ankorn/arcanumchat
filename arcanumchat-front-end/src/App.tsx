@@ -25,7 +25,7 @@ function Markdown({ children }: { children: string }) {
 const WS_URL = "wss://arcanumchat2-ankorn.waw0.amvera.tech/ws";
 
 const EXAMPLES = [
-  "How is weapon damage calculated?",
+  "How is melee weapon damage calculated?",
   "Where do I find the Vendigroth device?",
   "Best tech build for a gunslinger?",
   "What does the Unofficial Arcanum Patch fix?",
