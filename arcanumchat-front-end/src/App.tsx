@@ -22,7 +22,7 @@ function Markdown({ children }: { children: string }) {
   );
 }
 
-const WS_URL = "wss://arcanumchat-ankorn.amvera.io/ws";
+const WS_URL = "wss://arcanumchat2-ankorn.waw0.amvera.tech/ws";
 
 const EXAMPLES = [
   "How is weapon damage calculated?",
